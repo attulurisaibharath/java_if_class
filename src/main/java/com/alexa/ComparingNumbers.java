@@ -13,9 +13,10 @@ public class ComparingNumbers {
         int num3=sc.nextInt();
         if(num1>num2 && num1>num3){
             System.out.println("The greatest of three numbers is :"+num1);
-        }else if(num1==num2 || num1==num3){
+        else if(num1==num2 || num1==num3){
             System.out.println("From the above input two of the numbers are equal and the greatest is"+num1);
 
+        }
         }
         else if(num2>num3 ){
             System.out.println("The greatest of three numbers is :"+num2);
