@@ -15,7 +15,11 @@ public class ComparingNumbers {
             System.out.println("The greatest of three numbers is :"+num1);
         }else if(num2>num3){
             System.out.println("The greatest of three numbers is :"+num2);
-        }else{
+            
+        }else if(num1 == num2 || num2 == num3){
+            System.out.println("Two of the given numbers are equal");
+            
+        else{
             System.out.println("The greatest of three numbers is:"+num3);
         }
     }
